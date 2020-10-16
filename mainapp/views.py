@@ -24,3 +24,6 @@ def check_ratings(request):
     response = requests.get('https://api.twilio.com/2010-04-01/Accounts/AC3b6a699c4df765e6707f23a4ac084311/Messages.json')
     data = response.json()
     print(data)
+
+    
+    
